@@ -44,16 +44,16 @@ const CommentReview = () => {
                     <div className="col-12">
                         <div className="card">
                             <div className="card-body">
-                            <img src="https://images.deccanherald.com/deccanherald%2F2024-03%2F51c56fa0-3fe6-4c5a-8bd2-21efe523a7a7%2FVirat_Kohli_Hairdo.jpg?rect=94%2C0%2C540%2C720" alt="" className="mb-3" />
+                                <img  src="https://cdn.togetherv.com/instagram-themed-photo-booth-main_1680773792.webp" alt="" className="mb-3" />
                                 <form onSubmit={handleSubmit}>
                                     <div className="form-group">
                                         <label htmlFor="name" className="form-label">Name</label>
-                                        <input type="text" className="form-control mb-3" id="name" aria-describedby="nameHelp" placeholder="Enter Your Name...."      value={name} onChange={handleChange}
+                                        <input type="text" className="form-control mb-3" id="name" aria-describedby="nameHelp" placeholder="Enter Your Name...." value={name} onChange={handleChange}
                                         />
                                     </div>
                                     <div className="form-group">
                                         <label htmlFor="comment" className="form-label">Comment</label>
-                                        <textarea className="form-control mb-3" id="comment" placeholder="Enter Someting here...."  rows="3" value={comment} onChange={handleCommentsChange}>
+                                        <textarea className="form-control mb-3" id="comment" placeholder="Enter Someting here...." rows="3" value={comment} onChange={handleCommentsChange}>
                                         </textarea>
                                     </div>
                                     <div className="form-group">
